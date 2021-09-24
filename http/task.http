@@ -1,0 +1,29 @@
+@api=http://localhost:3000
+
+GET {{api}}/tasks
+###
+POST {{api}}/tasks
+Content-Type: application/json
+
+{
+    "name":"lorem ipsum",
+    "description":"lorem ipsum dolor"
+}
+
+###
+GET {{api}}/tasks/614e308553b5e3b707a7fd05
+
+###
+DELETE {{api}}/tasks/614e308553b5e3b707a7fd05
+
+###
+PUT  {{api}}/tasks/614e308553b5e3b707a7fd05
+
+Content-Type: application/json
+
+{
+    "name":"lorem ipsum",
+    "description":"lorem ipsum dolor"
+}
+###
+GET {{api}}/tasks/count
