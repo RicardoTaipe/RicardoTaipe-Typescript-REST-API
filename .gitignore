@@ -1,0 +1,10 @@
+node_modules
+*.log
+*.gz
+todos
+coverage
+.env
+docker-compose*
+!docker-compose.dev.yml
+.vscode
+build
