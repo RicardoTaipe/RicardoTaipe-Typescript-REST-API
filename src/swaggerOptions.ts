@@ -4,7 +4,7 @@ export const options = {
     info: {
       title: "Task API",
       version: "1.0.0",
-      description: "REST API using TypreScript",
+      description: "REST API using TypeScript",
     },
     servers: [
       {
